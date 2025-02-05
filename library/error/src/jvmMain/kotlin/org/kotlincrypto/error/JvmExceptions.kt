@@ -17,8 +17,6 @@
 
 package org.kotlincrypto.error
 
-import java.security.SecureRandom
-
 public actual typealias InvalidParameterException = java.security.InvalidParameterException
 public actual typealias GeneralSecurityException = java.security.GeneralSecurityException
 public actual typealias BadPaddingException = javax.crypto.BadPaddingException
@@ -29,7 +27,3 @@ public actual typealias IllegalBlockSizeException = javax.crypto.IllegalBlockSiz
 public actual typealias KeyException = java.security.KeyException
 public actual typealias InvalidKeyException = java.security.InvalidKeyException
 public actual typealias ShortBufferException = javax.crypto.ShortBufferException
-
-private fun SecureRandom.lll() {
-
-}
