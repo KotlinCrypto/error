@@ -1,0 +1,5 @@
+public final class org/kotlincrypto/error/PreconditionsKt {
+	public static final fun requireParam (Z)V
+	public static final fun requireParam (ZLkotlin/jvm/functions/Function0;)V
+}
+
