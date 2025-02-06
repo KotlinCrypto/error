@@ -5,7 +5,7 @@
 // - Show manifest properties: true
 // - Show declarations: true
 
-// Library unique name: <org.kotlincrypto.error:error>
+// Library unique name: <org.kotlincrypto:error>
 open class org.kotlincrypto.error/BadPaddingException : org.kotlincrypto.error/GeneralSecurityException { // org.kotlincrypto.error/BadPaddingException|null[0]
     constructor <init>() // org.kotlincrypto.error/BadPaddingException.<init>|<init>(){}[0]
     constructor <init>(kotlin/String?) // org.kotlincrypto.error/BadPaddingException.<init>|<init>(kotlin.String?){}[0]
