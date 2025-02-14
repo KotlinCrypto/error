@@ -21,6 +21,8 @@ plugins {
     id("org.jetbrains.dokka")
 }
 
+// TODO: Update to Dokka 2.0.0
+//  Issue is that a package-list file is not generated when dokkaGenerate is run...
 tasks.withType<DokkaTaskPartial>().configureEach {
     suppressInheritedMembers = true
 
