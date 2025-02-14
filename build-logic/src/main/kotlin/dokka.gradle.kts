@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2025 Matthew Nelson
+ * Copyright (c) 2025 KotlinCrypto
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -21,8 +21,7 @@ plugins {
     id("org.jetbrains.dokka")
 }
 
-// TODO: Update to Dokka 2.0.0
-//  Issue is that a package-list file is not generated when dokkaGenerate is run...
+// TODO: Update to Dokka 2.0.0+ (Issue #9)
 tasks.withType<DokkaTaskPartial>().configureEach {
     suppressInheritedMembers = true
 
