@@ -27,3 +27,4 @@ public actual typealias IllegalBlockSizeException = javax.crypto.IllegalBlockSiz
 public actual typealias KeyException = java.security.KeyException
 public actual typealias InvalidKeyException = java.security.InvalidKeyException
 public actual typealias ShortBufferException = javax.crypto.ShortBufferException
+public actual typealias SignatureException = java.security.SignatureException
