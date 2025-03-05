@@ -68,5 +68,12 @@ open class org.kotlincrypto.error/ShortBufferException : org.kotlincrypto.error/
     constructor <init>(kotlin/String?) // org.kotlincrypto.error/ShortBufferException.<init>|<init>(kotlin.String?){}[0]
 }
 
+open class org.kotlincrypto.error/SignatureException : org.kotlincrypto.error/GeneralSecurityException { // org.kotlincrypto.error/SignatureException|null[0]
+    constructor <init>() // org.kotlincrypto.error/SignatureException.<init>|<init>(){}[0]
+    constructor <init>(kotlin/String?) // org.kotlincrypto.error/SignatureException.<init>|<init>(kotlin.String?){}[0]
+    constructor <init>(kotlin/String?, kotlin/Throwable?) // org.kotlincrypto.error/SignatureException.<init>|<init>(kotlin.String?;kotlin.Throwable?){}[0]
+    constructor <init>(kotlin/Throwable?) // org.kotlincrypto.error/SignatureException.<init>|<init>(kotlin.Throwable?){}[0]
+}
+
 final inline fun org.kotlincrypto.error/requireParam(kotlin/Boolean) // org.kotlincrypto.error/requireParam|requireParam(kotlin.Boolean){}[0]
 final inline fun org.kotlincrypto.error/requireParam(kotlin/Boolean, kotlin/Function0<kotlin/Any>) // org.kotlincrypto.error/requireParam|requireParam(kotlin.Boolean;kotlin.Function0<kotlin.Any>){}[0]
