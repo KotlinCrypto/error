@@ -41,9 +41,9 @@ allprojects {
 val CHECK_PUBLICATION = findProperty("CHECK_PUBLICATION") != null
 
 plugins.withType<YarnPlugin> {
-    the<YarnRootExtension>().lockFileDirectory = rootDir.resolve(".kotlin-js-store")
-    if (CHECK_PUBLICATION) {
-        the<YarnRootExtension>().yarnLockMismatchReport = YarnLockMismatchReport.NONE
+    the<YarnRootExtension>().apply {
+        lockFileDirectory = rootDir.resolve(".kotlin-js-store").resolve("js")
+        if (CHECK_PUBLICATION) yarnLockMismatchReport = YarnLockMismatchReport.NONE
     }
 }
 
