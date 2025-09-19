@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## Version 0.4.0 (2025-09-19)
+ - Updates `kotlin` to `2.2.20` [[#14]][14]
+ - Lower supported `KotlinVersion` to `1.8` [[#15]][15]
+
 ## Version 0.3.1 (2025-08-25)
  - Add `SignatureException` [[#12]][12]
  - Updates `kotlin` to `2.2.10` [[#13]][13]
@@ -19,3 +23,5 @@
 [7]: https://github.com/KotlinCrypto/error/pull/7
 [12]: https://github.com/KotlinCrypto/error/pull/12
 [13]: https://github.com/KotlinCrypto/error/pull/13
+[14]: https://github.com/KotlinCrypto/error/pull/14
+[15]: https://github.com/KotlinCrypto/error/pull/15
